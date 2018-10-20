@@ -1,6 +1,6 @@
 import QtQuick 2.0
 import QtGraphicalEffects 1.0
-import  "../../"
+import  "../../../"
 Item {
     id: r
     width: app.an
@@ -48,7 +48,7 @@ Item {
             textFormat: Text.RichText
         }
         Image{
-            source: "../../h/unik.png"
+            source: "../../../h/unik.png"
             width: r.width*0.25
             fillMode: Image.PreserveAspectFit
             anchors.horizontalCenter: parent.horizontalCenter
@@ -323,7 +323,7 @@ Item {
         spacing: app.fs
         Image {
             id: img1
-            source: "../../h/qml.png"
+            source: "../../../h/qml.png"
             width: app.fs*6
             fillMode: Image.PreserveAspectFit
             opacity: 0.0
@@ -357,7 +357,7 @@ Item {
         Image {
             id: img2
             visible:false
-            source: "../../h/js.png"
+            source: "../../../h/js.png"
             width: app.fs*6
             fillMode: Image.PreserveAspectFit
         }
@@ -383,7 +383,7 @@ Item {
         Behavior on opacity{NumberAnimation{duration:500}}
         Image {
             id: img3
-            source: "../../h/unik.png"
+            source: "../../../h/unik.png"
             width: app.fs*10
             fillMode: Image.PreserveAspectFit
             anchors.verticalCenter: parent.verticalCenter
@@ -409,7 +409,7 @@ Item {
         }
         Image {
             id: img4
-            source: "../../h/editor_3.png"
+            source: "../../../h/editor_3.png"
             width: app.fs*10
             fillMode: Image.PreserveAspectFit
             Text{
@@ -434,7 +434,7 @@ Item {
         }
         Image {
             id: img5
-            source: "../../h/apps.png"
+            source: "../../../h/apps.png"
             width: app.fs*4
             fillMode: Image.PreserveAspectFit
             anchors.verticalCenter: parent.verticalCenter
@@ -470,7 +470,7 @@ Item {
         spacing:app.fs
         Behavior on opacity{NumberAnimation{duration:500}}
         Image {
-            source: "../../h/editor_3.png"
+            source: "../../../h/editor_3.png"
             width: app.fs*10
             fillMode: Image.PreserveAspectFit
             anchors.verticalCenter: parent.verticalCenter
@@ -494,7 +494,7 @@ Item {
             anchors.verticalCenter: parent.verticalCenter
         }
         Image {
-            source: "../../h/unik.png"
+            source: "../../../h/unik.png"
             width: app.fs*10
             fillMode: Image.PreserveAspectFit
             Text{
@@ -539,7 +539,7 @@ Item {
             anchors.verticalCenter: parent.verticalCenter
             Image {
                 id:qticon2
-                source: "../../h/qt-icon.png"
+                source: "../../../h/qt-icon.png"
                 width: app.fs*10
                 fillMode: Image.PreserveAspectFit
                 anchors.verticalCenter: parent.verticalCenter
@@ -567,7 +567,7 @@ Item {
             Item{width: app.fs*0.5;height: 10}
             Image {
                 id:unikicon
-                source: "../../h/unik.png"
+                source: "../../../h/unik.png"
                 fillMode: Image.PreserveAspectFit
                 anchors.verticalCenter: parent.verticalCenter
                 Behavior on width{NumberAnimation{duration: 1500}}
@@ -595,7 +595,7 @@ Item {
         spacing:app.fs*0.5
         Behavior on opacity{NumberAnimation{duration:500}}
         Image {
-            source: "../../h/qml.png"
+            source: "../../../h/qml.png"
             width: app.fs*10
             fillMode: Image.PreserveAspectFit
             anchors.verticalCenter: parent.verticalCenter
@@ -645,7 +645,7 @@ Item {
             anchors.verticalCenter: parent.verticalCenter
             spacing: app.fs*3
             Image {
-                source: "../../h/qt-icon.png"
+                source: "../../../h/qt-icon.png"
                 width: app.fs*6
                 fillMode: Image.PreserveAspectFit
                 anchors.horizontalCenter: parent.horizontalCenter
@@ -661,7 +661,7 @@ Item {
                 }
             }
             Image {
-                source: "../../h/unik.png"
+                source: "../../../h/unik.png"
                 width: app.fs*4.5
                 fillMode: Image.PreserveAspectFit
                 anchors.horizontalCenter: parent.horizontalCenter
